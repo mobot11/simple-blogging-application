@@ -41,6 +41,7 @@ class PostsNew extends Component {
 				</div>
 
 				<div className={`form-group ${content.touched && content.invalid ? 'has-danger' : ''}`}>
+					{/*figure out what is going on here tomorrow*/}
 					<label>Content</label>
 					<textarea className="form-control" {...content}/>
 					<div className="text-help">
